@@ -81,7 +81,7 @@ LR.score(xv_test,y_test)
 
 pred_LR = LR.predict(xv_test)
 
-print(classification_report(y_text,pred_LR))
+print(classification_report(y_test,pred_LR))
 
 """Manual Testing
 
